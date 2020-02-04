@@ -1,0 +1,433 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #FFFFFF;
+  margin: 0;
+  background-color: #f2f1e3;
+}
+
+#mainheading {
+  background:#3ab795;
+  width: 100%;
+  font-size: 25pt;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1pt;
+  text-align: center;
+}
+
+/*Nav Bar*/
+nav{
+  background:#3ab795;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1pt;
+}
+
+nav ul{
+    display:flex;
+    flex-direction:row;
+    padding-left: 0;
+    margin:0px;
+}
+
+nav li{
+    display: inline-block;
+    margin:1% auto;
+    text-align:center;
+    font-size:20px;
+}
+
+nav li a{
+    color:black;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.active {
+  color: white;
+}
+
+nav li a:hover {
+  color: #FFFFFF;
+}
+
+nav li a.active:hover {
+  color: black;
+}
+
+
+/*Index Page*/
+
+#index {
+  margin-bottom: 20px;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size:40px;
+}
+
+h2{
+    font-size:30px;
+}
+
+.indexPic, .logo{
+    display:block;
+    margin:0 auto;
+}
+
+
+.indexp{
+    margin:30px auto;
+    width:60%;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.index-content {
+  display:flex;
+  flex-flow: row;
+}
+
+iframe {
+  padding: 10% 10px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.index-1 {
+  background-color: #f2f1e3;
+}
+
+.index-2 {
+  background-color: #FFFFFF;
+}
+
+#plantsAd{
+    font-size:25px;
+    color:brown;
+    margin:30px auto;
+    width:40%;
+    text-align: center;
+}
+
+#plantsLink{
+    font-size:30px;
+    color:purple;
+    display:block;
+    margin:0 auto;
+    width:50%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/*Contact*/
+#formsentence{
+    font-size: 20px;
+    font-weight: bold;
+    width:100%;
+    color:#333333;
+    text-align: center;;
+}
+
+.form-label{
+    display:inline-block;
+    width:45%;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.feedback{
+    text-align: center;
+    color:brown;
+    width:90%;
+}
+
+.submit{
+    margin-left:60%;
+    margin-top: 15px;
+    width:80px;
+    font-size: 15px;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+/*PLANTS PAGE STYLING */
+.body-plant {
+  background-color: #FFFFFF;
+}
+
+.all_plants{
+ margin: 0 auto;
+}
+.plant-button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 5px;
+  border: solid;
+  border-color: #86baa1;
+  background-color: #86baa1;
+}
+
+.plant-button:focus {
+  background-color: #FFFFFF;
+  border: solid;
+  border-color: #86baa1;
+}
+
+.button-div {
+  text-align: center;
+}
+
+
+.entry-wrapper {
+  padding: 25px;
+  display: inline-flex;
+  /* margin-left: 50px; */
+  margin-right: 0px;
+  /* border: solid; */
+}
+
+.entry {
+  /* display: inline-block; */
+  display: inline-flex;
+  flex-flow: column;
+  width: 350px;
+  height: 350px;
+  /* border: dashed; */
+  background-color: #FFFFFF;
+  padding: 5px;
+
+}
+
+.entry-wrapper img {
+  display: block;
+  margin: 0 auto;
+  /* height:200px; */
+  /* vertical-align: top; */
+}
+
+h4 {
+  text-align: center;
+  padding: 10px;
+  border: solid;
+  border-color: #86baa1;
+  margin: 15px;
+}
+
+.entry-wrapper label {
+  display: inline;
+  padding-bottom: 10px;
+}
+
+.hidden{
+    display:none;
+}
+
+
+
+/* for the officers page gallery */
+
+#BoardMembers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.member {
+  border-color: black;
+  border-width: 1pt;
+  border-style: solid;
+  width: 300px;
+  margin: 15px;
+  display: block;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+.member figure img {
+  max-height: 180px;
+}
+
+/* .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+.source {
+  font-size: 75%;
+  text-decoration: underline;
+}
+
+.name {
+  font-weight: bold;
+  color: #1ba69e;
+  font-size: 120%
+}
+
+.role {
+  font-weight: bold;
+  font-size: 100%;
+  font-style: italic;
+}
+
+/* EVENTS page styling */
+
+#flyers {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.a_flyer {
+  width: 50%;
+  height: auto;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 1pt;
+  display: block;
+}
+
+#order-link {
+  font-size: 200%;
+  color: black;
+  display: block;
+  margin-bottom: 3pt;
+  margin-top: 20pt;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  border-style: solid;
+  background-color: lightcyan;
+  border-color: black;
+  border-width: 1pt;
+}
+
+#weeklysale {
+
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 50pt;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: lightcyan;
+  width: auto;
+  padding: 7pt;
+}
+
+#weeklysale p {
+  text-align: center;
+}
+
+
+
+
+/* adjustments for mobile */
+@media screen and (max-width: 1050px) {
+    .index-content {
+      flex-flow: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 120%;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .logo {
+    width: auto;
+  }
+
+
+  nav li {
+    display: block;
+    margin: 5px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  /* #entries-1, #entries-2 {
+    flex-direction: column;
+  } */
+
+  .entry {
+    width: 100%;
+    height: auto;
+  }
+
+  .entry-wrapper {
+    width: auto;
+  }
+
+
+  #entries-1 img, #entries-2 img {
+    width: 30%;
+  }
+
+  /* mobile for the events page */
+  #order-link {
+    font-size: 100%;
+  }
+
+  .active {
+    color: white;
+  }
+
+  /*contact*/
+  section label{
+      width:100%!important;
+      text-align: left!important;
+  }
+
+  .sep{
+      width:50%;
+      margin-left:30%;
+  }
+
+  .form-label{
+      padding-bottom: 0;
+  }
+
+  .formspace{
+      margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  /* .entry {
+
+    height: auto;
+    width: pauto;
+  } */
+
+}
+
+
+#embed{
+  width: 350px;
+  height: 500px;
+  border-style: none;
+  overflow: hidden;
+}
